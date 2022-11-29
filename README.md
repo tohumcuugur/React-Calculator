@@ -3,7 +3,6 @@ This is a calculator app with functional components. I used text fit npm package
 The npm package used => <h3>https://www.npmjs.com/package/react-textfit</h3>
 
 
-The npm package used => <h3>https://www.npmjs.com/package/react-textfit</h3>
 ![Ekran görüntüsü 2022-11-29 230401](https://user-images.githubusercontent.com/96912858/204645640-aca38133-3780-4ca5-93d4-4c122952667a.png)
 
 # Getting Started with Create React App
