@@ -1,4 +1,4 @@
-his is a calculator app with functional components. I used text fit npm package to fit the screen as the number is added.
+This is a calculator app with functional components. I used text fit npm package to fit the screen as the number is added.
 
 <h1>FOR DEMO</h1>
 <h2></h2>
