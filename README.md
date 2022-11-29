@@ -1,5 +1,5 @@
 This is a calculator app with functional components. I used text fit npm package to fit the screen as the number is added.
-[![Netlify Status](https://api.netlify.com/api/v1/badges/610b2e28-e14c-47c7-a115-b8ed31494527/deploy-status)](https://app.netlify.com/sites/react-calculatorrrrr/deploys)
+
 The npm package used => <h3>https://www.npmjs.com/package/react-textfit</h3>
 
 <h1>FOR DEMO</h1>
