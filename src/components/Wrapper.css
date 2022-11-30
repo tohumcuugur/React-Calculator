@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     width: 400px;
     height: 600px;
     padding: 10px;
@@ -6,7 +6,7 @@
     background-color: #4cd38f;
     background-image: linear-gradient(315deg, #e89c22 0%, #98e35719 74%);
     box-shadow:
-    0 0 15px 7px #fff,  
-    0 0 25px 15px #4cd38f, 
-    0 0 70px 45px #e89c22;
-} 
+        0 0 15px 7px #fff,
+        0 0 25px 15px #4cd38f,
+        0 0 70px 45px #e89c22;
+}

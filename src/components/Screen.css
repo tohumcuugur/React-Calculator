@@ -1,4 +1,4 @@
-.screen{
+.screen {
     height: 100px;
     width: 100%;
     margin-bottom: 10px;
@@ -12,7 +12,8 @@
     font-weight: bold;
     box-sizing: border-box;
     font-size: 60px;
-} 
-.screen span{
+}
+
+.screen span {
     font-size: 25px;
 }

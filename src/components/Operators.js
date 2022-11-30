@@ -1,16 +1,16 @@
 import "./Operators.css";
 
-const Operators = ({opSendValue}) =>{
+const Operators = ({ opSendValue }) => {
     return (
-    <div className="operators">
-        <button className="btnOp" onClick={()=> opSendValue.updateCalc("/")}>/</button>
-        <button className="btnOp" onClick={()=> opSendValue.updateCalc("*")}>*</button>
-        <button className="btnOp" onClick={()=> opSendValue.updateCalc("+")}>+</button>
-        <button className="btnOp" onClick={()=> opSendValue.updateCalc("-")}>-</button>
+        <div className="operators">
+            <button className="btnOp" onClick={() => opSendValue.updateCalc("/")}>/</button>
+            <button className="btnOp" onClick={() => opSendValue.updateCalc("*")}>*</button>
+            <button className="btnOp" onClick={() => opSendValue.updateCalc("+")}>+</button>
+            <button className="btnOp" onClick={() => opSendValue.updateCalc("-")}>-</button>
 
-        <button className="btnOp" onClick={opSendValue.deleteLast}>Del</button>
+            <button className="btnOp" onClick={opSendValue.deleteLast}>Del</button>
 
         </div>
-    ); 
+    );
 };
 export default Operators; 

@@ -6,21 +6,21 @@ import Digits from './components/Digits';
 import "./index.css"
 
 function App() {
-  const [calc , setCalc] = useState("");
-  const [result , setResult] = useState("");
+  const [calc, setCalc] = useState("");
+  const [result, setResult] = useState("");
 
-  const ops= ["/","*","+","-","." ]
+  const ops = ["/", "*", "+", "-", "."]
 
-  const updateCalc = (value)=>{
-    if(
+  const updateCalc = (value) => {
+    if (
       (ops.includes(value) && calc === '') || (ops.includes(value) && ops.includes(calc.slice(-1)))
-    ){
-      return 
+    ) {
+      return
     };
 
     setCalc(calc + value);
 
-    if(!ops.includes(value)){
+    if (!ops.includes(value)) {
       setResult(eval(calc + value).toString());
     }
   };
@@ -29,21 +29,21 @@ function App() {
 
   };
   const deleteLast = () => {
-    if(calc === ""){
+    if (calc === "") {
       return;
     }
-      const value = calc.slice(0, -1);
-      setCalc(value);
-    
+    const value = calc.slice(0, -1);
+    setCalc(value);
+
   };
 
   return (
     <div className="App">
       <div className='calculator'>
         <Wrapper>
-          <Screen screenSendValue={{calc,result}} /> 
-          <Operators opSendValue ={{updateCalc,deleteLast}}/>
-          <Digits digSendValue= {{updateCalc,calculate}}/>
+          <Screen screenSendValue={{ calc, result }} />
+          <Operators opSendValue={{ updateCalc, deleteLast }} />
+          <Digits digSendValue={{ updateCalc, calculate }} />
         </Wrapper>
       </div>
     </div>

@@ -1,12 +1,12 @@
 import { Textfit } from 'react-textfit';
-import "./Screen.css"; 
+import "./Screen.css";
 
-const Screen = ({screenSendValue}) =>{
-    
+const Screen = ({ screenSendValue }) => {
+
     return (
-        <Textfit mode="single" className="screen" max={50}> 
-                {screenSendValue.result ? <span>{`(${screenSendValue.result})`}</span> : ""}&nbsp;
-                {screenSendValue.calc || "0"}
+        <Textfit mode="single" className="screen" max={50}>
+            {screenSendValue.result ? <span>{`(${screenSendValue.result})`}</span> : ""}&nbsp;
+            {screenSendValue.calc || "0"}
         </Textfit>
     );
 };
